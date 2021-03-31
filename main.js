@@ -40,7 +40,7 @@ console.log('Scritch'.slice(-3) + 'Scritch' + 'Scritch'.slice(-3));
 
 // 8. Create a new string from a given string by changing the position of first and last characters. The string length must be greater than or equal to 2, i.e., expected output: BoogieWoogie => eoogieWoogiB
 
-console.log('BoogieWoogie'.slice(-11,-12) + 'oogieWoogi' + 'BoogieWoogie'.slice(0,1));
+console.log('BoogieWoogie'.slice(11, 12) + 'BoogieWoogie'.slice(1, 11) + 'BoogieWoogie'.slice(0,1));
 
 
 // 9. Create 3 different variables about yourself, using strings as values, i.e, let firstName = "Maria"; let city = "Berlin", etc. Print a sentence to the console using the variables and string interpolation, i.e., "My name is Maria. I live in Berlin and I am a teacher".
@@ -54,4 +54,4 @@ console.log(`My name is ${firstName} and i live in ${city} i am currently a ${oc
 // 10. Declare a variable and assign the value "the quick brown fox" (all in lower case). Capitalize the first letter of that string. Print the result to the console.
 
 const fontTest = 'the quick brown fox';
-console.log(fontTest.slice(0,1).toUpperCase() + fontTest.slice(1).toLowerCase());
+console.log(fontTest.slice(0,1).toUpperCase() + fontTest.slice(1));
