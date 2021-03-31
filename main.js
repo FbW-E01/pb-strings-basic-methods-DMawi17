@@ -39,7 +39,6 @@ console.log(`My name is ${firstName} and i live in ${city} i am currently a ${oc
 
 // 10. Declare a variable and assign the value "the quick brown fox" (all in lower case). Capitalize the first letter of that string. Print the result to the console.
 const fontTest = 'the quick brown fox';
-// console.log(fontTest.indexOf(0).toUpperCase());
 console.log(fontTest.substring(0,1).toUpperCase() + fontTest.substring(1).toLowerCase()); 
 
 
